@@ -32,7 +32,7 @@ function Hero() {
                 onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
-            <h1>Carl Angelo <br/>Volcan</h1>
+            <h1>Carl Angelo Volcan</h1>
             <h2>a.k.a. Gelofi</h2>
             <span>
                 <a href="https://facebook.com/fbnielo" target='_blank'>
@@ -45,8 +45,9 @@ function Hero() {
                     <img src={instagramIcon} alt='Instagram'></img>
                 </a>
             </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href={CV} className='hover' download>Resume</a>
+            <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href={CV} download>
+                <button className='hover'>Resume</button></a>
         </div>
     </section>
   );

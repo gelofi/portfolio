@@ -1,2 +1,2 @@
-# gelofi
- A portfolio website for myself.
+# Gelofi
+A portfolio-website for myself. WIP.

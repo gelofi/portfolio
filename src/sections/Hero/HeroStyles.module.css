@@ -2,26 +2,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap:40px;
     text-align: center;
-    height: 100dvh;
+    height:85dvh;
     min-height: 500px;
+    margin: 10%;
 
     .hero {
-        max-width: 200px;
+        max-width: 180px;
     }
 
     span {
+        /* this is the tab of icons */
         display: flex;
-        gap: 25px;
-        justify-content: center;
+        gap: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: left;
         
         a {
             margin: 0;
 
             img {
                 /* these are the link icons */
-                width: 36px;
+                width: 40px;
             }
         }
     }
@@ -45,7 +49,7 @@
     }
 
     button:hover {
-        transform: scale(1.05);
+        transform: scale(1.08);
     }
 
     button:active {
@@ -58,25 +62,38 @@
     position: relative;
 }
 
-.colorMode { 
-    /* this is the dark mode switch */
+.colorMode { /* this is the dark mode switch */
     position: absolute;
     right: 0;
     width: 24px;
+    margin: auto;
 }
 
 .colorMode:hover {
     cursor: pointer;
 }
 
-.description {
-    max-width: 24ch;
-    align-self: center;
+.description { /* tiny about me */
+    max-width: 64ch;
+    margin-bottom: 24px;
 }
 
-.info {
+.info { /* the typography after my photo */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+
+    .intro {
+        align-items: center;
+        margin-bottom: -20px;
+    }
+
+    .alias {
+        margin-top: -12px;
+    }
+}
+
+.projects {
+    background-color: var(--project-bg);
 }

@@ -1,25 +1,38 @@
-:root {
+:root { /* base theme WHICH IS LIGHT */
     --background-color: #ffffff;
-    --btn-color: #477785;
+    --btn-color: #2c6576;
     --btn-text-color: #ffffff;
     --project-card-bg: #ffffff00;
     --text-color: #252525;
+    --name-text-color: #397e93;
     --form-text-color: #3e4649;
-    --footer-text-color: #506d77;
+    --footer-text-color: #1e5364;
 }
 
+[data-color-scheme="light"] {
+    color-scheme: light;
+}
+
+/* the DARK THEME */
+[data-color-scheme="dark"] {
+    color-scheme: dark;
+  }
+  
 [data-theme='dark'] {
-    --background-color: #252525;
+    --background-color: #192327;
     --btn-color: #67adc3;
     --btn-text-color: #ffffff;
     --project-card-bg: #ffffff00;
     --text-color: #ffffff;
+    --name-text-color: #a9cddb;
     --form-text-color: #9bc0cd;
     --footer-text-color: #7ec2d9;
+    --color-scheme: dark;
 }
 
 body {
     background-color: var(--background-color);
+    color-scheme: var(--color-scheme);
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
@@ -31,28 +44,25 @@ body {
     gap: 60px;
 }
 
-h1 {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-size: 36px;
-}
-
 h1, h2, h3, p {
+    text-align: left;
     color: var(--text-color);
     margin: 0;
     padding: 0;
 }
 
-h2, h3, p {
-    font-family: "Source Code Pro", sans-serif;
+h1 {
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
+    color: var(--name-text-color);
+    font-weight: 600;
+    font-size: 48px;
 }
-
-h1, h2 {
-    text-transform: uppercase;
+h2, h3, p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2, h3 {

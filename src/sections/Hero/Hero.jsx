@@ -32,8 +32,9 @@ function Hero() {
                 onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
-            <h1>Carl Angelo Volcan</h1>
-            <h2>a.k.a. Gelofi</h2>
+            <h2 className={styles.intro}>Hello, I am</h2>
+            <h1>Carl Angelo</h1>
+            <h2 className={styles.alias}>or you can call me Gelofi.</h2>
             <span>
                 <a href="https://facebook.com/fbnielo" target='_blank'>
                     <img src={facebookIcon} alt='Facebook'></img>
@@ -45,9 +46,9 @@ function Hero() {
                     <img src={instagramIcon} alt='Instagram'></img>
                 </a>
             </span>
-            <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href={CV} download>
-                <button className='hover'>Resume</button></a>
+            <p className={styles.description}>I am a BS in Information Technology student from Bulacan State University.<br/><br/>I do designing and programming as hobbies and want to make it my profession someday!</p>
+            {/* <a href={CV} download>
+                <button className='hover'>Resume</button></a> */}
         </div>
     </section>
   );

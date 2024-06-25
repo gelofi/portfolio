@@ -1,3 +1,46 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin: 10%;
+
+    img {
+        max-width: 180px;
+        align-self: center;
+        background-color: var(--project-card-bg);
+        border-radius: 30px;
+        margin: 30px
+    }
+
+    a {
+        width: fit-content;
+        text-decoration: none;
+        color: #222;
+        transition: transform 200ms ease-in-out;
+    }
+
+    a:hover {
+        transform: scale(1.05);
+    }
+
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        gap: 30px;
+    }
+
+    /* centered text */
+    .centerize {
+        max-width: 24ch;
+        text-align: center;
+    }
+
+    /* BOLD centered text */
+    .centerizeBold {
+        font-weight: 600;
+        max-width: 24ch;
+        text-align: center;
+    }
 }

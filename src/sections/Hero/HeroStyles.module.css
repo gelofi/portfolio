@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:40px;
+    gap:35px;
     text-align: center;
     height:85dvh;
     min-height: 500px;
@@ -16,8 +16,6 @@
         /* this is the tab of icons */
         display: flex;
         gap: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         justify-content: left;
         
         a {
@@ -92,8 +90,4 @@
     .alias {
         margin-top: -12px;
     }
-}
-
-.projects {
-    background-color: var(--project-bg);
 }

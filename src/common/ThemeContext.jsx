@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext();
 var isDark = true;
+
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
@@ -14,10 +15,15 @@ export const ThemeProvider = ({ children }) => {
         localStorage.setItem('theme', theme);
     }, [theme]);
 
+    if (theme !== 'dark'){ // align the saved theme to the last saved theme
+        isDark = false;
+        document.documentElement.setAttribute("data-color-scheme", 'light');
+    }
+
     const toggleTheme = () => {
         //change the overall theme
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
-        
+
         //SCROLLBAR THEME
         // remove scrollbars
         document.documentElement.style.overflow = "hidden";

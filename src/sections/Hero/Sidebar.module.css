@@ -1,17 +1,20 @@
 .sidenav {
-    width: 200px;
+    width: 240px;
+    height: 80%;
+    border-top-right-radius: 46px;
+    border-bottom-right-radius: 46px;
     position: fixed;
     z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: #ffffff00;
+    left: 0px;
+    background: var(--sidebar-color);
     overflow-x: hidden;
-    padding: 8px 0 0 16px;
+    padding: 24px 0 0 16px;
+    margin-top: 60px;
   
   a {
     font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    padding: 12px 8px 4px 22px;
+    font-weight: 300;
+    padding: 12px 8px 12px 22px;
     text-decoration: none;
     font-size: 24px;
     color: var(--text-color);
@@ -19,7 +22,7 @@
   }
   
   a:hover {
-    transform: translateX(20px);
+    transform: translateX(15px);
     color: var(--sbh-text-color);
     font-weight: 600;
     transition: .5s;
@@ -30,10 +33,4 @@ main {
     margin-left: 140px; /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
-}
-  
-@media (max-width: 768px) {
-    .disable-sidebar {
-        display: none;
-    }
 }

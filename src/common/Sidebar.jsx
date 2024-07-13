@@ -1,4 +1,4 @@
-import styles from "../Hero/Sidebar.module.css";
+import styles from "../common/Sidebar.module.css";
 
 function Sidebar() {
     const noSidebar = window.matchMedia('(max-width: 768px').matches;
@@ -7,9 +7,10 @@ function Sidebar() {
     } else {
     return (
         <div class={styles.sidenav}>
-            <a href="#hero">About</a>
+            <a href="about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#designs">Designs</a>
+            <a href="#skills">Skills</a>
+            <a href="designs">Designs</a>
         </div>
         )
     }

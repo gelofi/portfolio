@@ -10,6 +10,8 @@
 
     --sidebar-color: #97c4d2;
     --sbh-text-color:#397e93;
+
+    transition: .5s;
 }
 
 [data-color-scheme="light"] {
@@ -35,6 +37,7 @@
     --sidebar-color: #426f7d;
     --sbh-text-color:#a9cddb;
 
+    transition: .5s;
 }
 
 body {

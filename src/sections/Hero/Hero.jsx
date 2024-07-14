@@ -34,7 +34,7 @@ function Hero() {
         <div className={styles.info}>
             <h2 className={styles.intro}>Hello, I am</h2>
             <h1>Carl Angelo</h1>
-            <h2 className={styles.alias}>or you can call me Gelofi.</h2>
+            <h2 className={styles.alias}>or you can call me Gelo.</h2>
             <span>
                 <a href="https://facebook.com/fbnielo" target='_blank'>
                     <img src={facebookIcon} alt='Facebook'></img>
@@ -42,13 +42,13 @@ function Hero() {
                 <a href="https://github.com/ghnigelofi" target='_blank'>
                     <img src={githubIcon} alt='GitHub'></img>
                 </a>
-                <a href="https://instagram/ignielo" target='_blank'>
+                <a href="https://instagram.com/ignielo" target='_blank'>
                     <img src={instagramIcon} alt='Instagram'></img>
                 </a>
             </span>
             <p className={styles.description}>I am a BS in Information Technology student from Bulacan State University - SC. I do designing and programming as hobbies and want to make it my profession someday!</p>
-            <a href={CV} download>
-            <button className='hover'>Resume</button></a>
+            {/* <a href={CV} download>
+            <button className='hover'>Resume</button></a> */}
         </div>
     </section>
   );

@@ -1,14 +1,14 @@
 .sidenav {
-    width: 200px;
+    width: 210px;
     height: 80%;
     border-top-right-radius: 46px;
     border-bottom-right-radius: 46px;
     position: fixed;
     z-index: 1;
-    left: 0px;
+    left: 0;
     background: var(--sidebar-color);
     overflow-x: hidden;
-    padding: 24px 0 0 16px;
+    padding: 36px 0 0 12px;
     margin-top: 60px;
   
   a {
@@ -18,14 +18,20 @@
     text-decoration: none;
     font-size: 24px;
     color: var(--text-color);
+    opacity: 70%;
     display: block;
   }
   
   a:active, a:hover {
-    transform: translateX(15px);
+    transform: translateX(15px) scale(1.2);
     color: var(--sbh-text-color);
-    font-weight: 600;
-    transition: .5s;
+    font-weight: 700;
+    transition: .4s;
+    opacity: 100%;
+  }
+
+  a:not(:hover){
+    transition: .4s;
   }
 }
 

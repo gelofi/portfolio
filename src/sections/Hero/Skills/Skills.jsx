@@ -30,7 +30,6 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill='Web Design'/>
             <SkillList src={checkMarkIcon} skill='PubMats'/>
             <SkillList src={checkMarkIcon} skill='Infographics'/>
-            <SkillList src={checkMarkIcon} skill='Advert Mockups'/>
         </div>
         <hr />
         <div className={styles.skillList}>

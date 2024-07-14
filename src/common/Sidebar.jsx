@@ -7,7 +7,7 @@ function Sidebar() {
     } else {
     return (
         <div class={styles.sidenav}>
-            <a href="#hero">About</a>
+            <a href="#main">Intro</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="designs">Designs</a>

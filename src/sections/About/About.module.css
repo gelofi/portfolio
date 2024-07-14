@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:35px;
+    text-align: center;
+    height:85dvh;
+    min-height: 500px;
+    margin: 10%;
+
+    .hero {
+        max-width: 180px;
+    }
+}
+
+.colorModeContainer {
+    position: relative;
+}
+
+.colorMode { /* this is the dark mode switch */
+    position: absolute;
+    right: 0;
+    width: 24px;
+    margin: auto;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+}
+
+.description { /* tiny about me */
+    max-width: 64ch;
+    margin-bottom: 24px;
+}
+
+.info { /* the typography after my photo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    .intro {
+        align-items: center;
+    }
+
+    .alias {
+        margin-top: -12px;
+    }
+}

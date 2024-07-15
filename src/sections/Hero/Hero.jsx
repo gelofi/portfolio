@@ -29,6 +29,7 @@ function Hero() {
             <img className={styles.colorMode}
                 src={themeIcon}
                 alt="Color Mode"
+                title='Switch Themes'
                 onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>

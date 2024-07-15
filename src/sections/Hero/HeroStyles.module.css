@@ -33,11 +33,11 @@
 
         a:hover {
             transform: scale(1.15);
-            transition: .4s;
+            transition: .3s;
         }
 
         a:not(:hover){
-            transition: .4s;
+            transition: .3s;
         }
     }
 
@@ -88,6 +88,7 @@
 .description { /* tiny about me */
     max-width: 64ch;
     margin-bottom: 24px;
+    transition: .2s;
 }
 
 .info { /* the typography after my photo */

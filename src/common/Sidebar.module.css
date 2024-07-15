@@ -10,7 +10,7 @@
     overflow-x: hidden;
     padding: 36px 0 0 12px;
     margin-top: 60px;
-    transition: .4s;
+    transition: .3s;
     opacity: 80%;
   
   a {
@@ -28,12 +28,12 @@
     transform: translateX(15px) scale(1.2);
     color: var(--sbh-text-color);
     font-weight: 700;
-    transition: .4s;
+    transition: .3s;
     opacity: 100%;
   }
 
   a:not(:hover){
-    transition: .4s;
+    transition: .3s;
   }
 }
 

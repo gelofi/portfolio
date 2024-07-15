@@ -11,7 +11,7 @@
     --sidebar-color: #97c4d2;
     --sbh-text-color:#397e93;
 
-    transition: .5s;
+    transition: .3s;
 }
 
 [data-color-scheme="light"] {
@@ -37,7 +37,7 @@
     --sidebar-color: #426f7d;
     --sbh-text-color:#a9cddb;
 
-    transition: .5s;
+    transition: .3s;
 }
 
 body {
@@ -59,6 +59,7 @@ h1, h2, h3, p {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    transition: .4s;
 
     center {
         text-align: center;
@@ -86,6 +87,7 @@ h2, h3 {
 p {
     font-size: 16px;
     font-weight: 400;
+    transition: .4s;
 }
 
 .sectionTitle {

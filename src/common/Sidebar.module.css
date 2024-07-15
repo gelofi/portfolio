@@ -10,6 +10,7 @@
     overflow-x: hidden;
     padding: 36px 0 0 12px;
     margin-top: 60px;
+    transition: .4s;
   
   a {
     font-family: "Outfit", sans-serif;

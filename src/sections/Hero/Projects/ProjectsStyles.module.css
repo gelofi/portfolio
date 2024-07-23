@@ -6,7 +6,7 @@
     margin: 10%;
 
     img {
-        max-width: 180px;
+        max-width: 150px;
         align-self: center;
         background-color: var(--project-card-bg);
         border-radius: 30px;
@@ -24,17 +24,9 @@
         transform: scale(1.05);
     }
 
-    .projectsContainer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-self: center;
-        gap: 30px;
-    }
-
     /* centered text */
     .centerize {
-        max-width: 24ch;
+        max-width: 20ch;
         text-align: center;
     }
 
@@ -43,5 +35,22 @@
         font-weight: 600;
         max-width: 24ch;
         text-align: center;
+    }
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    gap: 18px;
+}
+
+@media (width >= 800px){
+    .projectsContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
     }
 }

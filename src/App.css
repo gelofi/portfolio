@@ -6,7 +6,6 @@
     --text-color: #252525;
     --name-text-color: #397e93;
     --form-text-color: #3e4649;
-    --footer-text-color: #1e5364;
 
     --sidebar-color: #97c4d2;
     --sbh-text-color:#397e93;
@@ -31,7 +30,6 @@
     --text-color: #ffffff;
     --name-text-color: #a9cddb;
     --form-text-color: #9bc0cd;
-    --footer-text-color: #7ec2d9;
     --color-scheme: dark;
 
     --sidebar-color: #426f7d;
@@ -95,4 +93,34 @@ p {
 
 .hover {
     cursor: pointer;
+}
+
+@media (width >= 800px){
+    #root {
+        gap: 100px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2, h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .sectionTitle {
+        margin-bottom: 60px;
+    }
+}
+
+@media (width >= 1400px){
+    #root {
+        gap: 200px;
+    }
+    p {
+        font-weight: 300;
+    }
+    .sectionTitle {
+        margin-bottom: 75px;
+    }
 }

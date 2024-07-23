@@ -4,7 +4,7 @@
     justify-content: center;
     gap:35px;
     text-align: center;
-    height:85dvh;
+    height:75dvh;
     min-height: 500px;
     margin: 10%;
 
@@ -29,7 +29,7 @@
 }
 
 .description { /* tiny about me */
-    max-width: 64ch;
+    max-width: 84.2ch;
     margin-bottom: 24px;
 }
 
@@ -39,11 +39,7 @@
     justify-content: center;
     gap: 20px;
 
-    .intro {
-        align-items: center;
-    }
-
     .alias {
-        margin-top: -12px;
+        margin-top: -20px;
     }
 }

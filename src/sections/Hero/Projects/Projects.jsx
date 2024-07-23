@@ -27,6 +27,15 @@ function Projects() {
         h3={styles.centerizeBold}
         p={styles.centerize}/>
 
+        <ProjectCards
+        proj="Levelier"
+        desc="A Discord bot made to track a member's server level."
+        src={funknIcon}
+        link="https://github.com/ghnigelofi/Levelier"
+        alt="Levelier"
+        h3={styles.centerizeBold}
+        p={styles.centerize}/>
+
       </div>
     </section>
   )

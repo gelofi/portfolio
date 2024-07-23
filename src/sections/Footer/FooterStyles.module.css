@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        color: var(--text-color)
+    }
+
+    a {
+        color: var(--name-text-color);
+        text-decoration: none;
+    }
+}

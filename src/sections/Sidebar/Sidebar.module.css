@@ -55,7 +55,7 @@ button {
   border: none;
 }
 
-@media (width <= 1500px){
+@media (width <= 1200px){
   .sidenav {
     width: 0px;
     background: #ffffff00;

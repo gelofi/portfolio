@@ -22,7 +22,7 @@ function About() {
         </div>
         <div className={styles.info}>
             <h1>Gelofi</h1>
-            <h2 className={styles.alias}>18 y.o., he/him, INTP-T<br/>&nbsp;</h2>
+            <h2 className={styles.alias}>19 y.o., he/him, INTP-T<br/>&nbsp;</h2>
             <p className={styles.description}>As a creator, I aspire to leave remarkable creations to this world, as proof that not only I lived, but I lived well. I want to be more effective and efficient in what I do.
             <br/><br/>
             I'm not the best in talking, but I do try. And trying I did, by learning three languages: Filipino, English, and Japanese. To this day, my multilingualism remains as one of my most important skills.

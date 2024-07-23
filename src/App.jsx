@@ -26,7 +26,6 @@ function App() {
       <button onClick={handleClick}><a href="#main">Intro</a></button>
       <button><a href="#projects">Projects</a></button>
       <button><a href="#skills">Skills</a></button>
-      <button><a href="designs">Designs</a></button>
     </div>
     {Intro ? <Hero/> : <About/>}
     <Projects/>

@@ -23,10 +23,9 @@ function App() {
   return <>
     <Ripples/>
     <div className={sidebarStyles.sidenav}>
-      <button onClick={handleClick}><a href="#main">Intro</a></button>
+      <button onClick={handleClick}><a href="#main">{Intro ? 'Intro' : 'About'}</a></button>
       <button><a href="#projects">Projects</a></button>
       <button><a href="#skills">Skills</a></button>
-      <button><a href="designs">Designs</a></button>
     </div>
     {Intro ? <Hero/> : <About/>}
     <Projects/>

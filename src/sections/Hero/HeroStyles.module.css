@@ -7,6 +7,7 @@
     height:75dvh;
     min-height: 500px;
     margin: 10%;
+    padding-top: 16%;
 
     .hero {
         max-width: 180px;
@@ -106,11 +107,18 @@
     }
 }
 
+@media (width >= 800px){
+    .container {
+        padding-top: 0%;
+    }
+}
+
 @media (width >= 1400px){
     .container {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-evenly;
+        padding-top: 0%;
 
         .hero {
             max-width: 220px;

@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import funknIcon from "../../../assets/funkn.png";
 import kkohiIcon from '../../../assets/kko-hi.png';
+import levelierIcon from '../../../assets/levelier.png';
 import ProjectCards from '../../../common/ProjectCards';
 
 function Projects() {
@@ -30,7 +31,7 @@ function Projects() {
         <ProjectCards
         proj="Levelier"
         desc="A Discord bot made to track a member's server level."
-        src={funknIcon}
+        src={levelierIcon}
         link="https://github.com/ghnigelofi/Levelier"
         alt="Levelier"
         h3={styles.centerizeBold}

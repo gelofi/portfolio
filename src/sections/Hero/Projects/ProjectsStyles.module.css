@@ -26,14 +26,14 @@
 
     /* centered text */
     .centerize {
-        max-width: 20ch;
+        max-width: 24ch;
         text-align: center;
     }
 
     /* BOLD centered text */
     .centerizeBold {
         font-weight: 600;
-        max-width: 20ch;
+        max-width: 24ch;
         text-align: center;
     }
 }

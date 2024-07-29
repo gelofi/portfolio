@@ -22,9 +22,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.vs/slnx.sqlite
-.vs/VSWorkspaceState.json
-.vs/gelofi/FileContentIndex/08c815f8-567b-4a07-a1bb-9e664fecee86.vsidx
-.vs/gelofi/v17/.wsuo
-.vs/gelofi/v17/DocumentLayout.backup.json
-.vs/gelofi/v17/DocumentLayout.json
+.vs

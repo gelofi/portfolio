@@ -21,7 +21,7 @@ function Projects() {
 
         <ProjectCards
         proj="Kkohi"
-        desc="An all-around Discord bot made in Java. Formerly made in CoffeeScript. My favorite project."
+        desc="All-around Discord bot made in Java/CoffeeScript. My favorite project."
         src={kkohiIcon}
         link="https://github.com/gelofi/kkohi-jda"
         alt="Kko-hi"

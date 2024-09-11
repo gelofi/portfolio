@@ -12,7 +12,7 @@ function Projects() {
 
         <ProjectCards /* Funkn's Card */
         proj="Funkn"
-        desc="A Discord music bot. Deprecated, but is one of my favorite projects!"
+        desc="A freemium Discord music bot. Deprecated."
         src={funknIcon} 
         link="https://funkn.glitch.me/"
         alt="Funkn"
@@ -20,10 +20,10 @@ function Projects() {
         p={styles.centerize}/>
 
         <ProjectCards
-        proj="Kko-hi"
-        desc="An all-around Discord bot made in CoffeeScript."
+        proj="Kkohi"
+        desc="An all-around Discord bot made in Java. Formerly made in CoffeeScript. My favorite project."
         src={kkohiIcon}
-        link="https://github.com/ghnigelofi/Kko-hi"
+        link="https://github.com/gelofi/kkohi-jda"
         alt="Kko-hi"
         h3={styles.centerizeBold}
         p={styles.centerize}/>
@@ -32,7 +32,7 @@ function Projects() {
         proj="Levelier"
         desc="A Discord bot made to track a member's server level."
         src={levelierIcon}
-        link="https://github.com/ghnigelofi/Levelier"
+        link="https://github.com/gelofi/Levelier"
         alt="Levelier"
         h3={styles.centerizeBold}
         p={styles.centerize}/>

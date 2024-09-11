@@ -40,7 +40,7 @@ function Hero() {
                 <a href="https://facebook.com/fbnielo" target='_blank'>
                     <img src={facebookIcon} alt='Facebook'></img>
                 </a>
-                <a href="https://github.com/ghnigelofi" target='_blank'>
+                <a href="https://github.com/gelofi" target='_blank'>
                     <img src={githubIcon} alt='GitHub'></img>
                 </a>
                 <a href="https://instagram.com/ignielo" target='_blank'>
